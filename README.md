@@ -26,14 +26,14 @@ Asegúrese de tener Node.js y npm instalados en su máquina.
 2. Instalar Dependencias:
 
    ```bash
-  cd tu-proyecto/backend
-  npm install
+    cd tu-proyecto/backend
+    npm install
    ```
 3. ejecutar el proyecto
 
- ```bash
-   npm start
- ```
+    ```bash
+    npm start
+    ```
 Esto iniciará el servidor del backend en http://localhost:5173.
 
 Documentación Swagger
