@@ -1,0 +1,35 @@
+// colors
+$gray-500 : #E9E9E7;
+$blue-light : #5FA9C4;
+$blue-semi-light : #4B91AB;
+
+.bg-secondary-light {
+    background-color: $gray-500;
+}
+
+.bg-primary-light {
+    background-color: $blue-light !important;
+}
+
+.bg-primary-semilight {
+    background-color: $blue-semi-light !important;
+}
+
+
+.decoration-none {
+    text-decoration: none;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
+}
+
+.parent-card {
+    min-width: 300px;
+}
+
+.drop-mobile {
+    -webkit-box-shadow: -3px 3px 47px -19px rgba(255, 0, 0, 1);
+    -moz-box-shadow: -3px 3px 47px -19px rgba(255, 0, 0, 1);
+    box-shadow: -3px 3px 47px -19px rgba(255, 0, 0, 1);
+}
