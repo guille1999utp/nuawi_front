@@ -34,7 +34,7 @@ Asegúrese de tener Node.js y npm instalados en su máquina.
     ```bash
     npm run dev
     ```
-Esto iniciará el servidor del backend en http://localhost:5173.
+Esto iniciará el servidor del frontend en http://localhost:5173.
 
 Documentación Swagger
 La documentación Swagger de la API se encuentra en http://localhost:3000/api-docs. Proporciona detalles sobre las rutas, parámetros y respuestas de la API.
