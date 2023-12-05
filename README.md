@@ -28,7 +28,7 @@ Asegúrese de tener Node.js y npm instalados en su máquina.
    ```bash
   cd tu-proyecto/backend
   npm install
-    ```
+   ```
 3. ejecutar el proyecto
 
  ```bash
