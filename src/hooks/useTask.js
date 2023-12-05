@@ -75,8 +75,9 @@ const useTask = () => {
                 throw new Error('Error al agregar la tarea');
             }
 
+            
             const result = await response.json();
-            const newTask = result.task;
+            const newTask = result;
             setTasks((prevTasks) => [...prevTasks, newTask]);
         } catch (error) {
             console.error('Error al agregar la tarea:', error.message);
@@ -99,7 +100,7 @@ const useTask = () => {
     
           const updatedTask = await response.json();
 
-          const updatedTasks = tasks.map((task) => (task.id === taskId ? updatedTask.task : task));
+          const updatedTasks = tasks.map((task) => (task.id === taskId ? updatedTask : task));
           
           setTasks(updatedTasks);
         } catch (error) {

@@ -25,13 +25,13 @@ function App() {
           <div className="row overflow-auto flex-nowrap">
             <div className="col-12 bg-primary-light p-3 parent-card" style={{ minHeight: "calc(100vh - 56px)" }}>
               <div className="col bg-secondary-light rounded p-3">
-                <h3>Backlog</h3>
+                <h3>Task</h3>
                 {tasks?.length ? (
                   tasks.map((task) => <CardDrags data={task} key={task.id} />)
                 ) : (
                   <div>
                     <span>
-                      No hay elementos para esta columna, ve a crear nuevos elementos o arrastra elementos de otras columnas aquí :)
+                     No hay tareas disponibles, si quieres agregar tareas por favor oprime el link de abajo :)
                     </span>
                     <br />
                     <NavLink to="/agregar" className="decoration-none">Agregar nuevos elementos</NavLink>
